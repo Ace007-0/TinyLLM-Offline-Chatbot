@@ -12,3 +12,48 @@ This is a lightweight offline chatbot interface built with [Streamlit](https://s
 - ❌ Type `Bye Bot` to clear the session and stop interaction
 
 ---
+
+## 🛠️ Requirements
+
+- Python 3.8+
+- [Transformers](https://pypi.org/project/transformers/)
+- [Streamlit](https://pypi.org/project/streamlit/)
+- PyTorch (matching your system's hardware — CPU or CUDA version)
+
+---
+
+## 📦 Installation
+
+ **Clone the repository**:
+git clone https://github.com/your-username/tinyllm-offline-chatbot.git
+cd tinyllm-offline-chatbot
+
+## ▶️ Run the App
+streamlit run app.py
+Then open http://localhost:8501 in your browser.
+
+## 📝 Example Usage
+You: How does gravity work?
+
+Bot: Gravity is the force by which a planet or other body draws objects toward its center...
+
+You: Bye Bot
+
+Bot: Goodbye! Bot is shutting down.
+
+## 📰 Coming Soon: Full Medium Blog Tutorial
+For a more detailed walkthrough, including how to download and run TinyLLM locally on your PC, a step-by-step guide will be published soon on my Medium blog.
+
+This blog post will include:
+
+🔽 How to download TinyLLM from Hugging Face
+
+💾 How to store and manage model files locally
+
+🛠️ How to integrate the model with your own applications
+
+🧪 Tips for testing and customizing responses
+
+⚙️ How to make the chatbot fully offline
+
+📌 Stay tuned! The link will be added here once the article is live.
