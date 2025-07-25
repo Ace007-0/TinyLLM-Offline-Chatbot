@@ -28,9 +28,13 @@ This is a lightweight offline chatbot interface built with [Streamlit](https://s
 git clone https://github.com/your-username/tinyllm-offline-chatbot.git
 cd tinyllm-offline-chatbot
 
+---
+
 ## ▶️ Run the App
 streamlit run app.py
 Then open http://localhost:8501 in your browser.
+
+---
 
 ## 📝 Example Usage
 You: How does gravity work?
@@ -40,6 +44,8 @@ Bot: Gravity is the force by which a planet or other body draws objects toward i
 You: Bye Bot
 
 Bot: Goodbye! Bot is shutting down.
+
+---
 
 ## 📰 Coming Soon: Full Medium Blog Tutorial
 For a more detailed walkthrough, including how to download and run TinyLLM locally on your PC, a step-by-step guide will be published soon on my Medium blog.
