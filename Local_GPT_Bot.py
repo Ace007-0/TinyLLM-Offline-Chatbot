@@ -5,7 +5,7 @@ st.title("TinyLLM Offline Chatbot")
 st.write("Ask any question and get answers from the locally running TinyLLM model.")
 st.write("Type 'Bye Bot' to stop the chat.")
 
-model_path = r"C:\Users\devas\MyDesktop\Tinyllma"
+model_path = r"Path where you have downloaded Tinyllma"
 
 @st.cache_resource(show_spinner=True)
 def load_model_and_tokenizer(path):
